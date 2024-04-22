@@ -23,7 +23,7 @@ services:
     environment:
       - GONEWS_DB=postgres
     ports:
-      - 8081:80
+      - 8080:80
     depends_on:
           postgres:
             condition: service_healthy
